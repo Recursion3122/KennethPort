@@ -1241,7 +1241,7 @@ ul.slides li {
 	}
 }
 
-.ahem {
+.column {
     float: left;
     width: 50%;
     margin-bottom: 50px;
@@ -1249,7 +1249,7 @@ ul.slides li {
 }
 
 /* Clear floats after the columns */
-.roww::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
@@ -1257,7 +1257,7 @@ ul.slides li {
 
 /* Responsive layout for screens 600px or smaller */
 @media screen and (max-width: 600px) {
-    .ahem {
+    .column {
         width: 100%;
     }
 }
