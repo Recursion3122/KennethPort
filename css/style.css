@@ -107,26 +107,6 @@ body {
 	font-family: 'Open Sans',sans-serif;
 }
 
-.ahem {
-    float: left;
-    width: 50%;
-    margin-bottom: 50px;
-	margin-left: 300px;
-}
-
-/* Clear floats after the columns */
-.roww::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Responsive layout for screens 600px or smaller */
-@media screen and (max-width: 600px) {
-    .ahem {
-        width: 100%;
-    }
-}
 /* ==========================================================================Links========================================================================== */
 a:focus {
 	outline:thin dotted;
@@ -1259,4 +1239,25 @@ ul.slides li {
 	.subscribe {
 	    padding-bottom: 40px;
 	}
+}
+
+.ahem {
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+	margin-left: 300px;
+}
+
+/* Clear floats after the columns */
+.roww::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout for screens 600px or smaller */
+@media screen and (max-width: 600px) {
+    .ahem {
+        width: 100%;
+    }
 }
