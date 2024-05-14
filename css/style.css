@@ -1253,6 +1253,7 @@ ul.slides li {
     content: "";
     display: table;
     clear: both;
+	margin-left: 50%;
 }
 
 /* Responsive layout for screens 600px or smaller */
